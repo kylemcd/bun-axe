@@ -1,0 +1,28 @@
+{
+  "name": "bun-axe",
+  "description": "Run axe a11y tests in your bun project",
+  "homepage": "https://github.com/kylemcd/bun-axe",
+    "bugs": {
+    "url": "https://github.com/kylemcd/bun-axe/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylemcd/bun-axe.git"
+  },
+  "license": "ISC",
+  "author": "Kyle McDonald",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "module": "src/index.ts",
+  "type": "module",
+  "dependencies": {
+    "axe-core": "^4.8.2",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
